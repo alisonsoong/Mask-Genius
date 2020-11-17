@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10227FD24BB9B19009696B5 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227FC24BB9B19009696B5 /* resultViewController.swift */; };
+		F13B079624C55372002B6975 /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B079524C55372002B6975 /* AnimationsViewController.swift */; };
+		F164A46E24BBD5C70091DFB9 /* endViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F164A46D24BBD5C70091DFB9 /* endViewController.swift */; };
+		F1AE787F24C7AAB40068E623 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE787E24C7AAB40068E623 /* Swift+Gif.swift */; };
+		F1AE788124C7AB7B0068E623 /* aerosolGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788024C7AB7B0068E623 /* aerosolGif.gif */; };
+		F1AE788324C7ABF30068E623 /* dropletsGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788224C7ABF30068E623 /* dropletsGif.gif */; };
+		F1AE788524C7D0D60068E623 /* aerosol2Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788424C7D0D60068E623 /* aerosol2Gif.gif */; };
+		F1AE788724C7D1690068E623 /* droplets2Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788624C7D1690068E623 /* droplets2Gif.gif */; };
+		F1AE788924C7F3810068E623 /* n95Droplets.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788824C7F3800068E623 /* n95Droplets.gif */; };
+		F1AE788B24C7F43A0068E623 /* droplets.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788A24C7F4390068E623 /* droplets.gif */; };
+		F1AE788D24C7FD750068E623 /* n95aerosol.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788C24C7FD750068E623 /* n95aerosol.gif */; };
+		F1AE788F24C7FF210068E623 /* cottonaerosol.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE788E24C7FF200068E623 /* cottonaerosol.gif */; };
+		F1AE789124C800740068E623 /* surgicalaerosol.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1AE789024C800740068E623 /* surgicalaerosol.gif */; };
+		F1AEE66124AC51FE001F7A3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEE66024AC51FE001F7A3D /* AppDelegate.swift */; };
+		F1AEE66324AC51FE001F7A3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEE66224AC51FE001F7A3D /* SceneDelegate.swift */; };
+		F1AEE66524AC51FE001F7A3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEE66424AC51FE001F7A3D /* HomeViewController.swift */; };
+		F1AEE66824AC51FE001F7A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AEE66624AC51FE001F7A3D /* Main.storyboard */; };
+		F1AEE66A24AC51FE001F7A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AEE66924AC51FE001F7A3D /* Assets.xcassets */; };
+		F1AEE66D24AC51FE001F7A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AEE66B24AC51FE001F7A3D /* LaunchScreen.storyboard */; };
+		F1AEE67824AC522D001F7A3D /* MasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEE67724AC522D001F7A3D /* MasksViewController.swift */; };
+		F1B0D88D24B98AB000579586 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B0D88C24B98AB000579586 /* GameModel.swift */; };
+		F1B0D88F24B98CEC00579586 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B0D88E24B98CEC00579586 /* GameManager.swift */; };
+		F1D43CCB24AD5C0400C5ACB3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D43CCA24AD5C0400C5ACB3 /* GameViewController.swift */; };
+		F1D43CCD24AD5C5400C5ACB3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D43CCC24AD5C5400C5ACB3 /* InfoViewController.swift */; };
+		F1EB595B24B1A53700C14453 /* generalTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB595A24B1A53700C14453 /* generalTipsViewController.swift */; };
+		F1EB595D24B1A55E00C14453 /* researchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB595C24B1A55E00C14453 /* researchViewController.swift */; };
+		F1EB595F24B1A56F00C14453 /* virusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB595E24B1A56F00C14453 /* virusViewController.swift */; };
+		F1EB596124B1AA4700C14453 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB596024B1AA4700C14453 /* aboutViewController.swift */; };
+		F1EB596324B1AADB00C14453 /* feedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB596224B1AADB00C14453 /* feedbackViewController.swift */; };
+		F1EB596824B1B36F00C14453 /* n95ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB596724B1B36F00C14453 /* n95ViewController.swift */; };
+		F1EB596A24B2F7CE00C14453 /* surgicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB596924B2F7CE00C14453 /* surgicalViewController.swift */; };
+		F1EB596C24B2F8F000C14453 /* cottonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB596B24B2F8F000C14453 /* cottonViewController.swift */; };
+		F1EB596E24B2F8FD00C14453 /* otherMasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB596D24B2F8FD00C14453 /* otherMasksViewController.swift */; };
+		F1EB597024B5863D00C14453 /* roundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB596F24B5863D00C14453 /* roundViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10227FC24BB9B19009696B5 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		F13B079524C55372002B6975 /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
+		F164A46D24BBD5C70091DFB9 /* endViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endViewController.swift; sourceTree = "<group>"; };
+		F1AE787E24C7AAB40068E623 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		F1AE788024C7AB7B0068E623 /* aerosolGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = aerosolGif.gif; sourceTree = "<group>"; };
+		F1AE788224C7ABF30068E623 /* dropletsGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dropletsGif.gif; sourceTree = "<group>"; };
+		F1AE788424C7D0D60068E623 /* aerosol2Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = aerosol2Gif.gif; sourceTree = "<group>"; };
+		F1AE788624C7D1690068E623 /* droplets2Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = droplets2Gif.gif; sourceTree = "<group>"; };
+		F1AE788824C7F3800068E623 /* n95Droplets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = n95Droplets.gif; sourceTree = "<group>"; };
+		F1AE788A24C7F4390068E623 /* droplets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = droplets.gif; sourceTree = "<group>"; };
+		F1AE788C24C7FD750068E623 /* n95aerosol.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = n95aerosol.gif; sourceTree = "<group>"; };
+		F1AE788E24C7FF200068E623 /* cottonaerosol.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cottonaerosol.gif; sourceTree = "<group>"; };
+		F1AE789024C800740068E623 /* surgicalaerosol.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = surgicalaerosol.gif; sourceTree = "<group>"; };
+		F1AEE65D24AC51FE001F7A3D /* Mask Genius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mask Genius.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AEE66024AC51FE001F7A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1AEE66224AC51FE001F7A3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1AEE66424AC51FE001F7A3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F1AEE66724AC51FE001F7A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1AEE66924AC51FE001F7A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1AEE66C24AC51FE001F7A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1AEE66E24AC51FE001F7A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AEE67724AC522D001F7A3D /* MasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasksViewController.swift; sourceTree = "<group>"; };
+		F1B0D88C24B98AB000579586 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F1B0D88E24B98CEC00579586 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		F1D43CCA24AD5C0400C5ACB3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F1D43CCC24AD5C5400C5ACB3 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		F1EB595A24B1A53700C14453 /* generalTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalTipsViewController.swift; sourceTree = "<group>"; };
+		F1EB595C24B1A55E00C14453 /* researchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = researchViewController.swift; sourceTree = "<group>"; };
+		F1EB595E24B1A56F00C14453 /* virusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virusViewController.swift; sourceTree = "<group>"; };
+		F1EB596024B1AA4700C14453 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		F1EB596224B1AADB00C14453 /* feedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedbackViewController.swift; sourceTree = "<group>"; };
+		F1EB596724B1B36F00C14453 /* n95ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = n95ViewController.swift; sourceTree = "<group>"; };
+		F1EB596924B2F7CE00C14453 /* surgicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surgicalViewController.swift; sourceTree = "<group>"; };
+		F1EB596B24B2F8F000C14453 /* cottonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cottonViewController.swift; sourceTree = "<group>"; };
+		F1EB596D24B2F8FD00C14453 /* otherMasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherMasksViewController.swift; sourceTree = "<group>"; };
+		F1EB596F24B5863D00C14453 /* roundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1AEE65A24AC51FE001F7A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1AEE65424AC51FD001F7A3D = {
+			isa = PBXGroup;
+			children = (
+				F1AEE65F24AC51FE001F7A3D /* Mask Genius */,
+				F1AEE65E24AC51FE001F7A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1AEE65E24AC51FE001F7A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1AEE65D24AC51FE001F7A3D /* Mask Genius.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1AEE65F24AC51FE001F7A3D /* Mask Genius */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB594F24AFFB0400C14453 /* Navigation Controllers */,
+				F1AEE66024AC51FE001F7A3D /* AppDelegate.swift */,
+				F1AEE66224AC51FE001F7A3D /* SceneDelegate.swift */,
+				F1AEE67624AC5210001F7A3D /* Models */,
+				F1AEE67524AC520A001F7A3D /* Controllers */,
+				F1AEE67424AC5204001F7A3D /* View */,
+				F1AEE66924AC51FE001F7A3D /* Assets.xcassets */,
+				F1AE789024C800740068E623 /* surgicalaerosol.gif */,
+				F1AE788E24C7FF200068E623 /* cottonaerosol.gif */,
+				F1AE788C24C7FD750068E623 /* n95aerosol.gif */,
+				F1AE788A24C7F4390068E623 /* droplets.gif */,
+				F1AE788824C7F3800068E623 /* n95Droplets.gif */,
+				F1AE788624C7D1690068E623 /* droplets2Gif.gif */,
+				F1AE788024C7AB7B0068E623 /* aerosolGif.gif */,
+				F1AE788224C7ABF30068E623 /* dropletsGif.gif */,
+				F1AE788424C7D0D60068E623 /* aerosol2Gif.gif */,
+				F1AEE66B24AC51FE001F7A3D /* LaunchScreen.storyboard */,
+				F1AEE66E24AC51FE001F7A3D /* Info.plist */,
+			);
+			path = "Mask Genius";
+			sourceTree = "<group>";
+		};
+		F1AEE67424AC5204001F7A3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1AEE66624AC51FE001F7A3D /* Main.storyboard */,
+				F1AE787E24C7AAB40068E623 /* Swift+Gif.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1AEE67524AC520A001F7A3D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1AEE66424AC51FE001F7A3D /* HomeViewController.swift */,
+				F1AEE67724AC522D001F7A3D /* MasksViewController.swift */,
+				F1D43CCA24AD5C0400C5ACB3 /* GameViewController.swift */,
+				F1D43CCC24AD5C5400C5ACB3 /* InfoViewController.swift */,
+				F1EB595A24B1A53700C14453 /* generalTipsViewController.swift */,
+				F1EB595C24B1A55E00C14453 /* researchViewController.swift */,
+				F1EB595E24B1A56F00C14453 /* virusViewController.swift */,
+				F1EB596024B1AA4700C14453 /* aboutViewController.swift */,
+				F1EB596224B1AADB00C14453 /* feedbackViewController.swift */,
+				F1EB596724B1B36F00C14453 /* n95ViewController.swift */,
+				F1EB596924B2F7CE00C14453 /* surgicalViewController.swift */,
+				F1EB596B24B2F8F000C14453 /* cottonViewController.swift */,
+				F1EB596D24B2F8FD00C14453 /* otherMasksViewController.swift */,
+				F1EB596F24B5863D00C14453 /* roundViewController.swift */,
+				F10227FC24BB9B19009696B5 /* resultViewController.swift */,
+				F164A46D24BBD5C70091DFB9 /* endViewController.swift */,
+				F13B079524C55372002B6975 /* AnimationsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1AEE67624AC5210001F7A3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1B0D88C24B98AB000579586 /* GameModel.swift */,
+				F1B0D88E24B98CEC00579586 /* GameManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1EB594F24AFFB0400C14453 /* Navigation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Navigation Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1AEE65C24AC51FE001F7A3D /* Mask Genius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AEE67124AC51FE001F7A3D /* Build configuration list for PBXNativeTarget "Mask Genius" */;
+			buildPhases = (
+				F1AEE65924AC51FE001F7A3D /* Sources */,
+				F1AEE65A24AC51FE001F7A3D /* Frameworks */,
+				F1AEE65B24AC51FE001F7A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mask Genius";
+			productName = "Fresh Air";
+			productReference = F1AEE65D24AC51FE001F7A3D /* Mask Genius.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1AEE65524AC51FD001F7A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alison Soong";
+				TargetAttributes = {
+					F1AEE65C24AC51FE001F7A3D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F1AEE65824AC51FD001F7A3D /* Build configuration list for PBXProject "Mask Genius" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1AEE65424AC51FD001F7A3D;
+			productRefGroup = F1AEE65E24AC51FE001F7A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1AEE65C24AC51FE001F7A3D /* Mask Genius */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1AEE65B24AC51FE001F7A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AE788524C7D0D60068E623 /* aerosol2Gif.gif in Resources */,
+				F1AEE66D24AC51FE001F7A3D /* LaunchScreen.storyboard in Resources */,
+				F1AE789124C800740068E623 /* surgicalaerosol.gif in Resources */,
+				F1AEE66A24AC51FE001F7A3D /* Assets.xcassets in Resources */,
+				F1AE788D24C7FD750068E623 /* n95aerosol.gif in Resources */,
+				F1AE788124C7AB7B0068E623 /* aerosolGif.gif in Resources */,
+				F1AE788B24C7F43A0068E623 /* droplets.gif in Resources */,
+				F1AE788F24C7FF210068E623 /* cottonaerosol.gif in Resources */,
+				F1AE788924C7F3810068E623 /* n95Droplets.gif in Resources */,
+				F1AEE66824AC51FE001F7A3D /* Main.storyboard in Resources */,
+				F1AE788724C7D1690068E623 /* droplets2Gif.gif in Resources */,
+				F1AE788324C7ABF30068E623 /* dropletsGif.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1AEE65924AC51FE001F7A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B079624C55372002B6975 /* AnimationsViewController.swift in Sources */,
+				F1EB596E24B2F8FD00C14453 /* otherMasksViewController.swift in Sources */,
+				F1B0D88F24B98CEC00579586 /* GameManager.swift in Sources */,
+				F1EB595F24B1A56F00C14453 /* virusViewController.swift in Sources */,
+				F1D43CCB24AD5C0400C5ACB3 /* GameViewController.swift in Sources */,
+				F1EB597024B5863D00C14453 /* roundViewController.swift in Sources */,
+				F1EB595D24B1A55E00C14453 /* researchViewController.swift in Sources */,
+				F1EB596A24B2F7CE00C14453 /* surgicalViewController.swift in Sources */,
+				F1AE787F24C7AAB40068E623 /* Swift+Gif.swift in Sources */,
+				F1AEE67824AC522D001F7A3D /* MasksViewController.swift in Sources */,
+				F164A46E24BBD5C70091DFB9 /* endViewController.swift in Sources */,
+				F1AEE66524AC51FE001F7A3D /* HomeViewController.swift in Sources */,
+				F1EB596124B1AA4700C14453 /* aboutViewController.swift in Sources */,
+				F1EB595B24B1A53700C14453 /* generalTipsViewController.swift in Sources */,
+				F1EB596324B1AADB00C14453 /* feedbackViewController.swift in Sources */,
+				F1AEE66124AC51FE001F7A3D /* AppDelegate.swift in Sources */,
+				F10227FD24BB9B19009696B5 /* resultViewController.swift in Sources */,
+				F1EB596C24B2F8F000C14453 /* cottonViewController.swift in Sources */,
+				F1D43CCD24AD5C5400C5ACB3 /* InfoViewController.swift in Sources */,
+				F1AEE66324AC51FE001F7A3D /* SceneDelegate.swift in Sources */,
+				F1EB596824B1B36F00C14453 /* n95ViewController.swift in Sources */,
+				F1B0D88D24B98AB000579586 /* GameModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1AEE66624AC51FE001F7A3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AEE66724AC51FE001F7A3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1AEE66B24AC51FE001F7A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AEE66C24AC51FE001F7A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1AEE66F24AC51FE001F7A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1AEE67024AC51FE001F7A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1AEE67224AC51FE001F7A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKJ477XZGS;
+				INFOPLIST_FILE = "Mask Genius/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alisonsoong.MaskGenius;
+				PRODUCT_NAME = "Mask Genius";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F1AEE67324AC51FE001F7A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKJ477XZGS;
+				INFOPLIST_FILE = "Mask Genius/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alisonsoong.MaskGenius;
+				PRODUCT_NAME = "Mask Genius";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1AEE65824AC51FD001F7A3D /* Build configuration list for PBXProject "Mask Genius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AEE66F24AC51FE001F7A3D /* Debug */,
+				F1AEE67024AC51FE001F7A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AEE67124AC51FE001F7A3D /* Build configuration list for PBXNativeTarget "Mask Genius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AEE67224AC51FE001F7A3D /* Debug */,
+				F1AEE67324AC51FE001F7A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1AEE65524AC51FD001F7A3D /* Project object */;
+}
