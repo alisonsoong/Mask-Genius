@@ -58,15 +58,28 @@ class feedbackViewController: UIViewController {
     func showMailComposer() {
         // send email for feedback
         guard MFMailComposeViewController.canSendMail() else {
+            let sendMailErrorAlert = UIAlertController(title: "Could Not Send Email", message: "Your device could not send e-mail. Please check e-mail configuration and try again.", preferredStyle: UIAlertController.Style.alert)
+            let cancelAction: UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+            sendMailErrorAlert.addAction(cancelAction)
+            self.present(sendMailErrorAlert, animated: true, completion: nil)
             return
         }
         
-        let composer = MFMailComposeViewController()
-        composer.mailComposeDelegate = self
-        composer.setToRecipients(["maskgeniusapp@gmail.com"])
-        composer.setSubject("Feedback on Mask Genius")
+        if MFMailComposeViewController.canSendMail() {
+            let composer = MFMailComposeViewController()
+            composer.mailComposeDelegate = self
+            composer.setToRecipients(["maskgeniusapp@gmail.com"])
+            composer.setSubject("Feedback on Mask Genius")
+            present(composer, animated: true)
+        } else {
+            let sendMailErrorAlert = UIAlertController(title: "Could Not Send Email", message: "Your device could not send e-mail. Please check e-mail configuration and try again.", preferredStyle: UIAlertController.Style.alert)
+            let cancelAction: UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+            sendMailErrorAlert.addAction(cancelAction)
+            self.present(sendMailErrorAlert, animated: true, completion: nil)
+        }
+
         
-        present(composer, animated: true)
+        
     }
     
 

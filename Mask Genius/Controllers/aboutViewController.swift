@@ -59,7 +59,7 @@ class aboutViewController: UIViewController {
     
     @IBAction func infoAppButton(_ sender: UIButton) {
         // go to website
-        UIApplication.shared.open(URL(string:"https://alisonsoong.com/Fresh-Air/")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://alisonsoong.com/Mask-Genius/")! as URL, options: [:], completionHandler: nil)
     }
     
 
