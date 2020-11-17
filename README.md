@@ -1,6 +1,6 @@
 # Mask-Genius
 **Step 4: Set the app category**\
-Categories need to be chnaged in the App Store Connect.\
+Categories need to be changed in the App Store Connect.\
 Primary category:\
 Secondary category:
 \
