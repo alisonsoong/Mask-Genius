@@ -8,7 +8,7 @@ Mask Genius
 masks, mask, health, COVID-19, safety, education, information, game
 
 ###### 3) Description:
-Mask Genius is an interactive way to learn about how masks protect us from COVID-19. This high school student built app includes a game, interactive animations, and tips to keep yourself safe during the pandemic.
+Mask Genius is an interactive way to learn about how masks protect us from COVID-19.
 
 FEATURES OVERVIEW
 - Game: pick a mask to wear in five different situations and beat your high score!
