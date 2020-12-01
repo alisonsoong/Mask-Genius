@@ -1,13 +1,13 @@
 # Mask-Genius
 
-## Distribution Pre-requisites: \
-###### 1) App Name:\
+## Distribution Pre-requisites: 
+###### 1) App Name:
 Mask Genius
 
-###### 2) Keywords:\
+###### 2) Keywords:
 masks, mask, health, COVID-19, safety, education, information, game
 
-###### 3) Description:\
+###### 3) Description:
 Mask Genius is an interactive way to learn about how masks protect us from COVID-19. This high school student built app includes a game, interactive animations, and tips to keep yourself safe during the pandemic.
 
 FEATURES OVERVIEW
@@ -40,16 +40,16 @@ LEARN
 
 This app is inspired by an article published by the American Chemical Society. Data about the filtration efficiencies of the four different masks (N95, surgical, cotton, and hybrid) are from this source.
 
-Aerosol Filtration Efficiency of Common Fabrics Used in Respiratory Cloth Masks\
+Aerosol Filtration Efficiency of Common Fabrics Used in Respiratory Cloth Masks
 Abhiteja Konda, Abhinav Prakash, Gregory A. Moss, Michael Schmoldt, Gregory D. Grant, and Supratik Guh
 ACS Nano 2020 14 (5), 6339-6347
 DOI: 10.1021/acsnano.0c03252
 
-###### 4) Application Screenshots: See folder labeled "Applciation Screenshots"\
+###### 4) Application Screenshots: See folder labeled "Applciation Screenshots"
 
 
 
-## App Distribution Information: \
+## App Distribution Information: 
 
 **Step 4: Set the app category**\
 Categories need to be changed in the App Store Connect.\
