@@ -45,7 +45,7 @@ Abhiteja Konda, Abhinav Prakash, Gregory A. Moss, Michael Schmoldt, Gregory D. G
 ACS Nano 2020 14 (5), 6339-6347
 DOI: 10.1021/acsnano.0c03252
 
-###### 4) Application Screenshots: See folder labeled "Applciation Screenshots"
+###### 4) Application Screenshots: See folder labeled "Application Screenshots"
 
 
 
